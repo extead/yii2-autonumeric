@@ -29,7 +29,7 @@ class AutoNumericAsset extends AssetBundle
         'js/autoNumeric.js'
     ];
 
-    public $sourcePath = '@autonumeric/assets';
+    public $sourcePath = '@vendor/extead/yii2-autonumeric/assets';
 
 
 }
