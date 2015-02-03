@@ -1,0 +1,21 @@
+{
+    "name": "extead/yii2-autonumeric",
+    "description": "Input format extension for Yii 2.0 based on autoNumerical plugin",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","autonumeric", "widget", "money", "currency", "bootstrap", "format", "mask", "jquery", "bootstrap 3", "number"],
+    "license": "BSD 3-Clause",
+    "authors": [
+        {
+            "name": "extead",
+            "email": "extead@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "extead\\autonumeric\\": ""
+        }
+    }
+}
