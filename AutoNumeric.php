@@ -104,8 +104,8 @@ var val = parseFloat({$idSave}.val());
 {$id}.{$plugin}('init', {$pluginOptions});
 {$id}.{$plugin}('set', val);
 {$id}.on('change', function () {
-     var numDecimal = {$id}.{$plugin}('get');
-    {$idSave}.val(numDecimal);
+     var unformatted = {$id}.{$plugin}('get');
+    {$idSave}.val(unformatted);
     {$idSave}.trigger('change');
 });
 JS;
