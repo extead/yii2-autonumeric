@@ -3,7 +3,7 @@
 /**
  * @copyright Maxim Perfilev, 2015
  * @package yii2-autonumeric
- * @version 1.2.0
+ * @version 1.0.0
  */
 
 namespace autonumeric;

@@ -2,7 +2,7 @@
 /**
  * @copyright Maxim Perfilev, 2015
  * @package yii2-autonumeric
- * @version 1.2.0
+ * @version 1.0.0
  */
 
 namespace autonumeric;
@@ -14,7 +14,7 @@ use yii\helpers\Json;
  * Class AutoNumeric
  * @package autonumeric
  * @author Maxim Perfilev <extead@gmail.com>
- * @since 1.0
+ * @since 1.0.0
  */
 class AutoNumeric extends \yii\widgets\InputWidget {
     /**
