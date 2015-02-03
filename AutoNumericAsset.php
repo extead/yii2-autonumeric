@@ -6,7 +6,8 @@
  * @version 1.0.0
  */
 
-namespace autonumeric;
+namespace extead\autonumeric;
+
 use yii\web\AssetBundle;
 
 /**
