@@ -102,6 +102,7 @@ class AutoNumeric extends \yii\widgets\InputWidget {
         $js = <<< JS
 var val = parseFloat({$idSave}.val());
 {$id}.{$plugin}('init', {$pluginOptions});
+{$id}.{$plugin}('set', val);
 {$id}.on('change', function () {
      var numDecimal = {$id}.{$plugin}('get');
     {$idSave}.val(numDecimal);
