@@ -6,8 +6,8 @@
  */
 
 namespace extead\autonumeric;
-use yii\helpers\Html;
 use Yii;
+use yii\helpers\Html;
 use yii\helpers\Json;
 
 /**
@@ -48,8 +48,9 @@ class AutoNumeric extends \yii\widgets\InputWidget {
         $this->renderInput();
     }
 
+
     /**
-     *
+     * Render hidden "real" input and visible input for formatted value
      */
     protected function renderInput()
     {
@@ -63,6 +64,8 @@ class AutoNumeric extends \yii\widgets\InputWidget {
     }
 
     /**
+     * Load options from Yii::$app->formatter
+     *
      * @param $paramFrom
      * @param $paramTo
      */
@@ -75,7 +78,7 @@ class AutoNumeric extends \yii\widgets\InputWidget {
     }
 
     /**
-     *
+     * Load default plugin options from params autoNumeric section
      */
     protected function initPluginOptions()
     {
@@ -88,7 +91,7 @@ class AutoNumeric extends \yii\widgets\InputWidget {
     }
 
     /**
-     *
+     *  Register assets.
      */
     public function registerAssets()
     {
