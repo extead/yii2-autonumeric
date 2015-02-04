@@ -1,6 +1,6 @@
 AutoNumeric plugin
 ==================
-Extension for format inputs based on autoNumerical plugin [https://github.com/BobKnothe/autoNumeric](https://github.com/BobKnothe/autoNumeric)
+Input format extension for Yii 2.0 based on autoNumerical plugin [https://github.com/BobKnothe/autoNumeric](https://github.com/BobKnothe/autoNumeric)
 
 Installation
 ------------
@@ -25,12 +25,12 @@ to the require section of your `composer.json` file.
 Usage
 -----
 
-For all pluginOptions parameters see autoNumeric docs - [https://github.com/BobKnothe/autoNumeric](https://github.com/BobKnothe/autoNumeric).
+For all pluginOptions see autoNumeric docs - [https://github.com/BobKnothe/autoNumeric](https://github.com/BobKnothe/autoNumeric).
 
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?=$form->field($model, 'price_min')->widget(\extead\autonumeric\AutoNumeric::classname(), [
+<?=$form->field($model, 'price')->widget(\extead\autonumeric\AutoNumeric::classname(), [
                 'pluginOptions' => [
                     'aSep' => ' ',
                     'mDec' => 0
