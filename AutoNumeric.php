@@ -105,7 +105,10 @@ class AutoNumeric extends \yii\widgets\InputWidget {
         $js = <<< JS
 var val = parseFloat({$idSave}.val());
 {$id}.{$plugin}('init', {$pluginOptions});
+
+if(!isNaN(val)) {
 {$id}.{$plugin}('set', val);
+}
 {$id}.on('change', function () {
      var unformatted = {$id}.{$plugin}('get');
     {$idSave}.val(unformatted);
