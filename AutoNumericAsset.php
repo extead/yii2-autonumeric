@@ -19,17 +19,21 @@ use yii\web\AssetBundle;
  */
 class AutoNumericAsset extends AssetBundle
 {
+	public $sourcePath = '@vendor/bower/autoNumeric';
+
     public $depends = [
         'yii\web\JqueryAsset',
         'yii\web\YiiAsset',
         'yii\bootstrap\BootstrapAsset',
     ];
 
-    public $js = [
-        'js/autoNumeric.js'
-    ];
-
-    public $sourcePath = '@vendor/extead/yii2-autonumeric/assets';
-
-
+    public function init()
+    {
+        parent::init();
+		
+        $this->js = [
+            YII_DEBUG ? 'autoNumeric.js' : 'autoNumeric-min.js'
+        ];		
+	}
+	
 }
