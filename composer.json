@@ -3,7 +3,7 @@
     "description": "Input format extension for Yii 2.0 based on autoNumerical plugin",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","autonumeric", "widget", "money", "currency", "bootstrap", "format", "mask", "jquery", "bootstrap 3", "number"],
-    "license": "BSD 3-Clause",
+    "license": "0BSD",
     "authors": [
         {
             "name": "extead",
