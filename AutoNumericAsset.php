@@ -19,7 +19,7 @@ use yii\web\AssetBundle;
  */
 class AutoNumericAsset extends AssetBundle
 {
-	public $sourcePath = '@vendor/bower/autoNumeric';
+	public $sourcePath = '@bower/autoNumeric';
 
     public $depends = [
         'yii\web\JqueryAsset',
